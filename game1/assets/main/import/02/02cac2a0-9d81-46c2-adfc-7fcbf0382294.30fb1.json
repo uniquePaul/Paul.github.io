@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "游戏一",
+  "_duration": 0.08333333333333333,
+  "speed": 0.1,
+  "curveData": {
+    "props": {
+      "x": [
+        {
+          "frame": 0,
+          "value": -233.932
+        },
+        {
+          "frame": 0.08333333333333333,
+          "value": 230
+        }
+      ]
+    }
+  },
+  "events": [
+    {
+      "frame": 0.08333333333333333,
+      "func": "onAnimCompleted",
+      "params": [
+        1,
+        "asd"
+      ]
+    }
+  ]
+}
