@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap');
+body{
+    flex-direction: column;  
+    background-color: black;  
+}
+.page_head{
+    background-color: black;
+    flex-direction: row;
+    display: flex;
+    flex:1;
+    width: 100%;
+    height: 10%;
+    justify-content: space-between;
+}
+.logo{
+    width: 30%;
+    align-self: center;
+
+}
+#restaurant_logo{
+    width: 30%;
+    margin-left: 20px;
+}
+#social_media_button_Group{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.social_media_button{
+    background-color: black;
+    margin-top: 10px;
+    align-self: flex-end;
+    margin-right: 20px;
+}
+.img{
+    width: 40px;
+}
+.history{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 3%;
+}
+#yangchow{
+    width: 30%;
+    height: 50%;
+    align-self: center;
+}
+#title_history{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    font-weight: 200;
+    width: 100%;
+    color: red;
+    text-align: center;
+}
+
+#t_history{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 150;
+    width: 80%;
+    margin-left: 10%;
+    color: blue;
+    text-align: center;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    color: red;
+    width: 30%;
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+}
+.main{
+    width: 100%;
+    height: 150%;
+    display: flex;
+    flex-direction: column;
+}
+#background_image{
+    width: 100%;
+    height: 150%;
+    z-index: -1;
+    opacity: 0.9;
+    display: block;
+}
+.container{
+    margin-top: 40%;
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.dishes{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+.title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+    width: 100%;
+}
+#bowl_image{
+    width: 80%;
+    margin-left: 10%;
+}
+#noodle_image{
+    width: 80%;
+    margin-left: 10%;
+}
+#seafood_image{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -30%;
+}
+#Seafood{
+    width: 50%;
+}
+
+
+
+/*body{
+    font-family: "Montserrat", sans-serif;
+}
+
+#stripe {
+    background-color: rgba(0, 130, 120, 0.1);
+    z-index: -1;
+    border:none;
+    width: 100%;
+}
+
+#titles{
+    flex-direction:column;
+    align-content: flex-start;
+    order:2;
+    color:rgb(2, 40, 81);
+    font-style:italic;
+    font-weight:bold;
+}
+
+#logotext2{
+    font-weight: bold;
+    color:rgb(0, 130, 120);
+}
+
+
+
+@media screen and (min-width:1000px){
+    body{
+        align-content: flex-start;
+    }    
+    
+    #stripe {
+        position:absolute;
+        margin-top:69px;
+        height: 185px;
+    }
+    #logo_area{
+        display:flex;
+        flex-direction: row;
+        margin-top: 20px;
+        justify-content: flex-start;
+        order: 1;
+    }
+    .container{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display:flex;
+        flex-flow: column;
+    }
+    header{
+        display: flex;
+        flex-flow:row wrap;
+        justify-content: space-between;
+        margin-left: 3%;
+        margin-right: 5%;
+        width: 92%;
+        height: 130px;
+    }
+    #title1{
+        display:flex;
+        align-items: flex-end;
+        font-size:50px;
+        height: 37px;
+        margin-top: 40px;
+    }
+    #title2{
+        display:flex;
+        align-items: flex-end;
+        font-size:50px;
+        margin-top: 15px;
+        height: 37px;
+    }
+    #museum_logo{
+        height: 50%;
+    }
+    
+    #logo_text{
+        font-size: 16px;
+        margin-left:20px;
+        margin-top: 10px;
+    }
+    
+    #logotext1{
+        height: 20px;
+    }
+    
+    #logotext2{
+        height: 20px;
+    }
+    
+    #logotext3{
+        height: 20px;		
+    }
+
+    main{
+        display:flex;
+        flex-flow: row wrap;
+        justify-content:center;
+        width: 1180px;
+        margin-top: 25px;
+        align-self: center;
+    }
+    .tile{
+        font-size: 20px;
+        width: 535px;
+    }
+    #tile_1{
+        margin-right: 110px;
+    }
+    #tile_2{
+        margin-top: 35px;
+    }
+
+    #bodytext_1{
+        margin-top: 20px;
+    }
+    #bodytext_2{
+        margin-bottom: 20px;
+    }
+    .body_img{
+        width: 535px;
+    }
+    
+    .captions{
+        font-size: 14px;
+        width: 535px;
+    }
+    figure{
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .container{
+        flex-direction: column;
+        display: flex;
+        overflow: auto;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    #stripe {
+        position:absolute;
+        height: 100px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    #titles{
+        font-size: 24px;
+        text-align: center;
+    }
+    #title1{
+        margin-top: 70px;
+        
+    }
+    #title2{
+        margin-top: -10px;
+    }
+
+    #logo_area{
+        margin: auto;
+        width: fit-content;
+        height: 80px;
+        display:flex;
+        margin-top: 50px;
+        margin-bottom: 70px;
+        order: 1;
+    }
+    #logo_text{
+        margin-left: 20px;
+        margin-top: 5px;
+        font-size: 16px;
+    }
+    #logotext2{
+        font-weight: 700;
+    }
+
+    main{
+        margin-bottom: 70px;
+    }
+
+    .tile{
+        margin: auto;
+        width: 268px;
+        display:  flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #tile_1{
+        margin-bottom: 40px;
+    }
+
+    figure{
+        margin: auto;
+        justify-content: center;
+    }
+    .bodytext{
+        font-size: 18px;
+    }
+    .bodytext{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .captions{
+        font-size: 14px;
+    }
+
+    .container{
+        width: 100%;
+    }
+    #image_1{
+        width: 268px;
+    }
+    #image_2{
+        width: 268px;
+    }
+}*/
+
